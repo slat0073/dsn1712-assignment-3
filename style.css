@@ -39,3 +39,14 @@ header nav a {
     color: white;
     text-decoration: none;
 }
+
+#hero {
+    height: 600px;
+    background-image: url(../images/hands-typing.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
