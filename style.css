@@ -9,14 +9,16 @@ body {
     line-height: 1.6;
 }
 
-header {
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-
 .wrapper {
     max-width: 940px;
     margin: auto;
 }
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+
 
