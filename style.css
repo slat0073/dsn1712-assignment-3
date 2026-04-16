@@ -59,3 +59,76 @@ header nav a {
     text-align: center;
     text-shadow: 2px 2px 5px #000;
 }
+
+#about-me {
+    padding-top: 60px;
+    scroll-padding-bottom: 0%;
+}
+
+.about-flex {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#about-me .about-flex {
+    align-items: stretch;
+}
+
+.about-text p {
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+#about-me img {
+    align-self: flex-end;
+    display: block;
+    max-width: 100%;
+}
+
+#services {
+    background-color: #fafafa;
+    padding: 80px 0;
+}
+
+.services-header {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#services article {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#services article p {
+    margin-bottom: 30px;
+}
+
+#services .btn {
+    margin-top: auto;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    text-decoration: none;
+    transition: 0.3s;
+    width: fit-content;
+}
+
+#services .btn:hover {
+    background-color: black;
+    color: white;
+}
